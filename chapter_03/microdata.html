@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microdata Example</title>
+</head>
+<body>
+  <h1>About Me</h1>
+  <div itemscope itemtype="http://data-vocabulary.org/Person">
+    <img itemprop="photo" src="face.jpg" alt="Mike's Face">
+    <p>This website is the work of
+    <span itemprop="title" style="display: none;">Web Developer</span>
+    <strong itemprop="name">Mike Rowe Formatte</strong>.
+    His friends know him as the <strong itemprop="nickname">The Big M</strong>.</p>
+
+    <p>You can contact him where he works, at
+    <span itemprop="affiliation">The Magic Semantic Company</span>
+    (phone <span itemprop="tel">641-545-0234</span> and ask for mike).</p>
+
+    <p>Or, visit him there at:<br>
+      <span itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+        <span itemprop="street-address">42 Jordan Gordon Street, 6th Floor</span><br>
+        <span itemprop="locality">San Francisco</span>,
+        <span itemprop="region">CA</span>
+        <span itemprop="postal-code">94105</span><br>
+        <span itemprop="country-name">USA</span><br>
+      </span></p>
+      <a itemprop="url" href="http://www.magicsemantics.com">www.magicsemantics.com</a>
+  </div>
+</body>
+</html>
