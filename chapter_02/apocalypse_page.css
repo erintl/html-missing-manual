@@ -1,0 +1,161 @@
+﻿body {
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0px;
+}
+
+header.site-header {
+  margin: 0px;
+  padding: 5px 5px 2px 5px;
+  background: #6B6E3F;
+  width: 854px;
+}
+
+aside.nav-sidebar {
+  position: absolute;
+  left: 0px;
+  top: 182px;
+  padding: 5px 15px 0px 15px;
+  width: 203px;
+  min-height: 1500px;
+  font-size: small;
+  background-color: #EEEEEE;
+}
+
+aside.nav-sidebar h2 {
+  color: #6B6E3F;
+  border-bottom: thin #6B6E3F solid;
+  margin-bottom: 0px;
+  margin-top: 20px;
+}
+
+aside.nav-sidebar ul {
+  padding-left: 15px;
+}
+
+aside.nav-sidebar li {
+  padding-bottom: 3px;
+}
+
+aside.nav-sidebar img {
+  margin-top: 10px;
+  border: white solid 4px;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+  max-width: 700px;
+  min-width:400px;
+}
+
+.content .lead-in {
+  font-weight: bold;
+  font-size: large;
+  font-variant: small-caps;
+}
+
+.content h3 {
+  color: #24486C;
+  margin-bottom: 2px;
+  font-size: medium;
+}
+
+.content p {
+  margin-top: 0px;
+}
+
+header.article-header {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+header.article-header h2 {
+  margin: 0px;
+  font-size:xx-large;
+}
+
+header.article-header h3 {
+  margin: 0px;
+  font-weight: bold;
+}
+
+header.article-header .byline {
+  font-style: italic;
+  font-size: small;
+  margin: 0px;
+}
+
+.footer {
+  margin-left: 240px;
+  max-width: 700px;
+  min-width: 400px;;
+  text-align: center;
+  font-size: x-small;	
+}
+
+.footer .disclaimer {
+  font-style: italic;
+}
+
+.footer p {
+  margin: 3px;
+}
+
+.float-figure {
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+.float-figure figcaption {
+  max-width: 200px;
+  font-size: small;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.pull-quote {
+  float: right;
+  max-width: 300px;
+  border-top: thin black solid;
+  border-bottom: thin black solid;
+  font-size: 30px;
+  line-height: 130%;
+  font-style: italic;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.pull-quote img {
+  vertical-align: bottom;
+}
+
+#fat-footer {
+  position: fixed;
+  bottom: 0px;
+  height: 145px;
+  width: 100%;
+  background: #ECD672;
+  border-top: thin solid black;
+  font-size: small;
+}
+
+#fat-footer img.close-button {
+  cursor: pointer;
+  float: right;
+  margin: 4px;
+}
+
+#fat-footer div.float-box {
+  float: left;
+  padding: 10px;
+}
+
+#fat-footer .footer {
+  clear:both;
+  font-size: x-small;	
+  text-align: center;
+}
